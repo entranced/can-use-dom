@@ -1,28 +1,31 @@
 {
-  "name": "can-use-dom",
-  "type": "module",
-  "version": "0.1.0",
-  "description": "Test if you can use dom in the current environment",
-  "main": "index.mjs",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/akiran/can-use-dom.git"
-  },
-  "keywords": [
-    "isomorphic"
-  ],
-  "author": "Kiran Abburi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/akiran/can-use-dom/issues"
-  },
-  "homepage": "https://github.com/akiran/can-use-dom",
-  "devDependencies": {
-    "jsdom": "^3.1.0",
-    "mocha": "^2.1.0",
-    "should": "^4.6.3"
-  }
+    "name": "can-use-dom",
+    "version": "0.1.0-esm.0",
+    "description": "Test if you can use dom in the current environment",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha test.mjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/akiran/can-use-dom.git"
+    },
+    "files": [],
+    "keywords": [
+        "isomorphic"
+    ],
+    "author": "Kiran Abburi",
+    "license": "MIT",
+    "contributors": [
+        "Nishit Patel"
+    ],
+    "bugs": {
+        "url": "https://github.com/akiran/can-use-dom/issues"
+    },
+    "homepage": "https://github.com/akiran/can-use-dom",
+    "devDependencies": {
+        "jsdom": "^24.0.0",
+        "mocha": "^10.4.0",
+        "should": "^13.2.3"
+    }
 }
