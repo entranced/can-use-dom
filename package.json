@@ -1,8 +1,9 @@
 {
   "name": "can-use-dom",
+  "type": "module",
   "version": "0.1.0",
   "description": "Test if you can use dom in the current environment",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "./node_modules/.bin/mocha test.js"
   },

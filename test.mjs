@@ -1,5 +1,5 @@
-var should = require('should');
-// var jsdom = require('jsdom');
+import should from 'should';
+import jsdom from 'jsdom';
 
 describe('canUseDOM', function () {
   it('should return false in nodejs environment', function (done) {
